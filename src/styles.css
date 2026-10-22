@@ -1,0 +1,93 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 90vw;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+}
+
+#form{
+    display: flex;
+    gap: 100px;
+}
+
+input{
+    padding-left: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 2rem;
+}
+
+.header-content{
+    font-size: 3rem;
+}
+.header-tagline{
+    font-size: 1.5rem;
+}
+.weathermain{
+    display: grid;
+    height: 500px;
+    width: 90vw;
+    border-radius: 25px;
+    background-color: red;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathermain-one{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.weathermain-two{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.currenttemp, .currentcondition,.feelslike,.humidity{
+    font-size: 1.7rem;
+}
+.description{
+    font-size: 1.5rem;
+}
+
+.cityname{
+    font-size: 4rem;
+}
+.coordinates{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5rem;
+}
